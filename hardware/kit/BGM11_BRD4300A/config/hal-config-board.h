@@ -182,7 +182,7 @@
 
 #define BSP_PTI_DOUT_PIN                              (4U)
 #define BSP_PTI_DOUT_PORT                             (gpioPortA)
-#define BSP_PTI_DOUT_LOC                              (3U)
+#define BSP_PTI_DOUT_LOC                              (3U) // this was 6 on my example, making it 6 here creates the field overflow!!
 
 // [PTI]$
 
